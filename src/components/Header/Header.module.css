@@ -1,0 +1,41 @@
+header {
+  text-align: center;
+}
+
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  background-image: url('../../../public/assets/images/foto-header.png');
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  position: relative;
+}
+
+.title {
+  font-size: 6vw;
+  font-weight: 700;
+  color: #FFF;
+  position: absolute;
+  bottom: 25%;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.headerTextContent {
+  margin: 20px;
+}
+
+hr {
+  width: 15vw;
+}
+
+@media screen and (max-width: 769px) {
+  .bannerContainer {
+    height: 60vw;
+  }
+
+  .headerTextContent {
+    margin: 15px;
+  }
+}
