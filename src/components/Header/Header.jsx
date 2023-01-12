@@ -7,7 +7,7 @@ function Header() {
   return (
     <header>
       <div className={styles.bannerContainer}>
-        <span className={styles.title}>Trabalhe no Elo7</span>
+        <h1 className={styles.title}>Trabalhe no Elo7</h1>
       </div>
       <div className={styles.headerTextContainer}>
         <p>
