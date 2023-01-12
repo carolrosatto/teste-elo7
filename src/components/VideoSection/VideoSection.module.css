@@ -1,0 +1,4 @@
+.videoSectionContainer {
+  display: flex;
+  flex-direction: row;
+}
