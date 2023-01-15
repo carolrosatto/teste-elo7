@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 14px;
-  margin: 0;
 }
 
 body {
@@ -13,23 +17,20 @@ body {
 }
 
 p {
-  color: #9ea1af;
-  line-height: 1.5;
+  color: #827873;
+  line-height: 1.7rem;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 a {
   text-decoration: none;
 }
 
-article {
-  margin: 0 5vw 0 5vw;
-}
-
 @media screen and (max-width: 426px) {
 
   p,
   a {
-    font-size: 0.8rem;
+    font-size: 2rem;
   }
 }
