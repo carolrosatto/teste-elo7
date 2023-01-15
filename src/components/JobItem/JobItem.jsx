@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from "./JobItem.module.css";
+import Link from "../Link";
 
 function JobItem() {
   return (
     <article className={styles.jobItemContainer}>
-      <span className={styles.jobTitle}>Desenvolvedor mobile</span>
-      <span className={styles.jobLocation}>Barra Funda/SP</span>
+      <Link className={styles.jobTitle} label="Desenvolvedor mobile" />
+      <span className={styles.jobLocation}>Barra Funda</span>
     </article>
   )
 }
