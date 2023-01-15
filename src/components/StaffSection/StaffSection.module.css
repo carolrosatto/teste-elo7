@@ -1,12 +1,19 @@
 .staffSectionContainer {
-  padding: 0 4rem 0 4rem;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .staffSectionTitle {
   text-align: center;
+  color: #827873;
+  width: 18rem;
 }
 
 .staffPhotosContainer {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
+  margin: 3rem 0 5rem 0;
 }

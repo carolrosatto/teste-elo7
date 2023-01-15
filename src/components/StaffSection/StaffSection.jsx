@@ -13,7 +13,6 @@ function StaffSection() {
             <StaffItem photoSrc={photo.src} photoAlt={photo.alt} />
           )
         }
-        <StaffItem />
       </article>
     </section>
   )
