@@ -3,10 +3,10 @@ import styles from "./JobItem.module.css";
 
 function JobItem() {
   return (
-    <section className={styles.jobItemContainer}>
+    <article className={styles.jobItemContainer}>
       <span className={styles.jobTitle}>Desenvolvedor mobile</span>
       <span className={styles.jobLocation}>Barra Funda/SP</span>
-    </section>
+    </article>
   )
 }
 

@@ -2,9 +2,9 @@ import React from 'react'
 
 function Banner() {
   return (
-    <article>
+    <section>
       <img src="/assets/images/foto-bottom.png" />
-    </article>
+    </section>
   )
 }
 

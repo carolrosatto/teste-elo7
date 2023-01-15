@@ -1,3 +1,11 @@
+.staffSectionContainer {
+  padding: 0 4rem 0 4rem;
+}
+
+.staffSectionTitle {
+  text-align: center;
+}
+
 .staffPhotosContainer {
   display: flex;
   justify-content: space-between;

@@ -1,26 +1,26 @@
 header {
   text-align: center;
-  margin-bottom: 4vw;
+  margin-bottom: 5rem;
 }
 
 .bannerContainer {
   display: flex;
   justify-content: center;
-  height: 90vh;
-  background-image: url('../../../public/assets/images/foto-header.png');
+  height: 45rem;
+  background-image: url('../../assets/images/foto-header.png');
   background-size: cover, contain;
   background-repeat: no-repeat;
   background-position: 50% 0;
   position: relative;
-  margin-bottom: 2vw;
+  margin-bottom: 2rem;
 }
 
 .title {
-  font-size: 5.5vw;
+  font-size: 5rem;
   font-weight: 700;
   color: #FFF;
   position: absolute;
-  bottom: 20%;
+  bottom: 3rem;
   text-shadow: 2px 2px 10px #000;
 }
 
@@ -28,7 +28,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 5vw 0 5vw;
+  margin: 0 4rem 0 4rem;
 }
 
 @media screen and (max-width: 769px) {
