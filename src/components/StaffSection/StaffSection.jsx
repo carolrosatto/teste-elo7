@@ -1,18 +1,21 @@
 import React from 'react'
 import StaffItem from '../StaffItem/StaffItem';
 import styles from "./StaffSection.module.css";
+import { staffPhotos } from '../../utils/data';
 
 function StaffSection() {
   return (
-    <article className={styles.staffSectionContainer}>
-      <h2>CONHEÇA NOSSO TIME FORA DE SÉRIE</h2>
-      <section className={styles.staffPhotosContainer}>
+    <section className={styles.staffSectionContainer}>
+      <h2 className={styles.staffSectionTitle}>CONHEÇA NOSSO TIME FORA DE SÉRIE</h2>
+      <article className={styles.staffPhotosContainer}>
+        {
+          staffPhotos.map((photo) =>
+            <StaffItem photoSrc={photo.src} photoAlt={photo.alt} />
+          )
+        }
         <StaffItem />
-        <StaffItem />
-        <StaffItem />
-        <StaffItem />
-      </section>
-    </article>
+      </article>
+    </section>
   )
 }
 

@@ -1,4 +1,29 @@
 .videoSectionContainer {
   display: flex;
   flex-direction: row;
+  background-color: #f8f8f8;
+  padding: 4rem;
+}
+
+.videoSnapshot {
+  height: 23rem;
+  margin-right: 5rem;
+}
+
+.videoTitle {
+  color: #827873;
+  margin-bottom: 0.4rem;
+}
+
+.videoSubtitle {
+  color: #fab02c;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.videoDescription {
+  margin-top: 2rem;
+  text-align: justify;
 }
