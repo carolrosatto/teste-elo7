@@ -8,8 +8,8 @@ function ValueItem({ imageSrc, imageAlt, valueDescription, valueTitle, key }) {
         src={imageSrc}
         alt={imageAlt}
       />
-      <h2>{valueTitle}</h2>
-      <p className={styles.valueDescription}>{valueDescription}</p>
+      <h2 className={styles.valueTitle}>{valueTitle.toUpperCase()}</h2>
+      <p>{valueDescription}</p>
     </article>
   )
 }

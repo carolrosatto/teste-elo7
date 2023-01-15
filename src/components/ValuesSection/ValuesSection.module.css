@@ -1,12 +1,17 @@
-.valuesSectionList {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 50px;
+.valuesSectionContainer {
+  margin: 5rem 10rem;
 }
 
-.valuesSectionContainer {
+.valuesSectionList,
+.moreInformation {
   display: flex;
+}
+
+.valuesSectionList {
+  justify-content: space-between;
+}
+
+.moreInformation {
   flex-direction: column;
-  align-items: center;
-  border: 1px solid magenta;
+  justify-content: center;
 }
