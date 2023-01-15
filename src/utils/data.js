@@ -11,19 +11,19 @@ export const companyValues = [
     icon: qualidade,
     title: "Qualidade de vida",
     alt: "Emoji de carinha feliz branca em fundo amarelo",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum rhoncus cursus. Nunc ac erat consequat, fermentum risus at, lobortis dolor."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum rhoncus cursus. Nunc ac erat consequat, fermentum risus at, lobortis dolor. Nam suscipit mauris dictum tristique vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus ligula vel neque rhoncus tincidunt"
   },
   {
     icon: descontracao,
     title: "Ambiente descontraído",
     alt: "Emoji de mãozinha fazendo o símbolo do rockem branco em fundo amarelo",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id auctor turpis, eu dapibus magna. Donec id nulla scelerisque massa feugiat imperdiet."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id auctor turpis, eu dapibus magna. Donec id nulla scelerisque massa feugiat imperdiet. Curabitur condimentum ullamcorper pretium. Sed et ex eros. Pellentesque quis tincidunt risus. Nulla eros lacus, blandit sit amet massa nec, eleifend placerat odio."
   },
   {
     icon: atividades,
     title: "Atividades extras",
     alt: "Emoji de paleta de tinta em branco em fundo amarelo",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ac lacus eu tincidunt. Phasellus id felis consequat, commodo neque sed, egestas ligula. Quisque vulputate dolor id ornare feugiat."
+    description: "Curabitur condimentum ullamcorper pretium. Sed et ex eros. Pellentesque quis tincidunt risus. Nulla eros lacus, blandit sit amet massa nec, eleifend placerat odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet ac lacus eu tincidunt. Phasellus id felis consequat, commodo neque sed, egestas ligula. Quisque vulputate dolor id ornare feugiat."
   }
 ]
 
