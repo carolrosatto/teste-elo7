@@ -1,0 +1,8 @@
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.bannerImage {
+  width: 73rem;
+}

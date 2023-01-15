@@ -6,6 +6,8 @@ import StaffSection from '../../components/StaffSection';
 import VideoSection from '../../components/VideoSection';
 import ValuesSection from '../../components/ValuesSection';
 
+import bannerBottom from '../../assets/images/foto-bottom.png';
+
 function Home() {
   return (
     <>
@@ -13,7 +15,7 @@ function Home() {
       <VideoSection />
       <StaffSection />
       <ValuesSection />
-      <Banner />
+      <Banner bannerImage={bannerBottom} bannerAlt="TESTE" />
       <JobsSection />
     </>
   )
