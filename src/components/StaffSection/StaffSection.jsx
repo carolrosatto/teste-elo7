@@ -9,8 +9,8 @@ function StaffSection() {
       <h2 className={styles.staffSectionTitle}>CONHEÇA NOSSO TIME FORA DE SÉRIE</h2>
       <article className={styles.staffPhotosContainer}>
         {
-          staffPhotos.map((photo) =>
-            <StaffItem photoSrc={photo.src} photoAlt={photo.alt} />
+          staffPhotos.map((photo, index) =>
+            <StaffItem key={index} photoSrc={photo.src} photoAlt={photo.alt} />
           )
         }
       </article>

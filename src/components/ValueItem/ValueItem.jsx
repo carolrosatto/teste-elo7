@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./ValueItem.module.css";
 
-function ValueItem({ imageSrc, imageAlt, valueDescription, valueTitle, key }) {
+function ValueItem({ imageSrc, imageAlt, valueDescription, valueTitle }) {
   return (
-    <article key={key} className={styles.valueItemContainer}>
+    <article className={styles.valueItemContainer}>
       <img
         src={imageSrc}
         alt={imageAlt}
