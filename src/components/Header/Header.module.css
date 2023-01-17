@@ -3,9 +3,13 @@ header {
   margin-bottom: 5rem;
 }
 
-.bannerContainer {
+.bannerContainer,
+.headerTextContainer {
   display: flex;
   justify-content: center;
+}
+
+.bannerContainer {
   height: 40rem;
   background-image: url('../../assets/images/foto-header.png');
   background-size: cover, contain;
@@ -25,8 +29,6 @@ header {
 }
 
 .headerTextContainer {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 0 9rem;
 }

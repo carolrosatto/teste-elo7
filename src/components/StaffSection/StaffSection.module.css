@@ -1,6 +1,10 @@
+.staffSectionContainer,
+.staffPhotosContainer {
+  display: flex;
+}
+
 .staffSectionContainer {
   background-color: #f8f8f8;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -12,7 +16,6 @@
 }
 
 .staffPhotosContainer {
-  display: flex;
   justify-content: space-between;
   gap: 1rem;
   margin: 3rem 0 5rem 0;

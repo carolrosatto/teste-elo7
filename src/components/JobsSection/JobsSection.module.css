@@ -2,13 +2,16 @@
   margin: 0 9.5rem 3rem 9.5rem;
 }
 
-.jobSectionTitle {
+.jobSectionTitle,
+.jobAreaTitle {
   color: #827873;
+}
+
+.jobSectionTitle {
   margin: 3.5rem 0;
   text-align: center;
 }
 
 .jobAreaTitle {
-  color: #827873;
   margin-bottom: 2rem;
 }

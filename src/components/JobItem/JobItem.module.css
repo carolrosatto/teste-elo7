@@ -4,14 +4,16 @@
   margin: 1rem 0;
 }
 
-.jobTitle {
-  color: #3ba0a7;
+.jobTitle,
+.jobLocation {
   font-weight: 600;
   font-size: 1.1rem;
+}
 
+.jobTitle {
+  color: #3ba0a7;
 }
 
 .jobLocation {
   color: #827873;
-  font-weight: 600;
 }
