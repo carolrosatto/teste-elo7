@@ -1,9 +1,9 @@
 import React from 'react';
 import Divider from '../Divider';
-import CustomLink from '../Link';
+import CustomLink from '../CustomLink';
 import styles from './Header.module.css'
 
-function Header() {
+export default function Header() {
 
   function scrollToItem(element) {
     if (element !== null) {
@@ -14,19 +14,18 @@ function Header() {
 
   return (
     <header>
-      <div className={styles.bannerContainer}>
+      <article className={styles.bannerContainer}>
         <h1 className={styles.title}>Trabalhe no Elo7</h1>
-      </div>
-      <div className={styles.headerTextContainer}>
+      </article>
+      <article className={styles.headerTextContainer}>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices mi. Mauris ut volutpat est ipsum.
-          Maecenas vulputate sed diam sed finibus. Phasellus condimentum mollis leo, sit amet commodo dolor imperdiet at.  Curabitur ac ultrices mi.
+          Maecenas vulputate sed diam sed finibus. Phasellus condimentum mollis leo, sit amet commodo dolor imperdiet at.
+          Curabitur ac ultrices mi.
         </p>
         <Divider />
-        <CustomLink label="VAGAS EM ABERTO" hasIcon onClick={() => scrollToItem("#jobSection")} />
-      </div>
+        <CustomLink label='VAGAS EM ABERTO' hasIcon onClick={() => scrollToItem('#jobSection')} />
+      </article>
     </header>
   )
 }
-
-export default Header;

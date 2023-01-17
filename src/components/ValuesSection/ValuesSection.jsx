@@ -1,17 +1,15 @@
 import React from 'react'
 import ValueItem from '../ValueItem';
 import Divider from '../Divider';
-import Link from '../Link';
-import styles from "./ValuesSection.module.css";
-import * as data from '../../utils/data';
+import CustomLink from '../CustomLink';
+import styles from './ValuesSection.module.css';
+import { companyValues } from '../../utils/data';
 
-const valuesData = data.companyValues;
-
-function ValuesSection() {
+export default function ValuesSection() {
   return (
     <section className={styles.valuesSectionContainer}>
       <article className={styles.valuesSectionList}>
-        {valuesData.map((value, index) =>
+        {companyValues.map((value, index) =>
           <ValueItem
             key={index}
             imageSrc={value.icon}
@@ -24,10 +22,8 @@ function ValuesSection() {
       </article>
       <article className={styles.moreInformation}>
         <Divider />
-        <Link label="SAIBA MAIS" hasIcon />
+        <CustomLink label='SAIBA MAIS' hasIcon />
       </article>
     </section>
   )
 }
-
-export default ValuesSection;

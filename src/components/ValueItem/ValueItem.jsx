@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from "./ValueItem.module.css";
+import styles from './ValueItem.module.css';
 
-function ValueItem({ imageSrc, imageAlt, valueDescription, valueTitle }) {
+export default function ValueItem({ imageSrc, imageAlt, valueDescription, valueTitle }) {
   return (
     <article className={styles.valueItemContainer}>
       <img
@@ -13,5 +13,3 @@ function ValueItem({ imageSrc, imageAlt, valueDescription, valueTitle }) {
     </article>
   )
 }
-
-export default ValueItem;

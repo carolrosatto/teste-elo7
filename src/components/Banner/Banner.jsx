@@ -1,12 +1,10 @@
 import React from 'react'
 import styles from './Banner.module.css';
 
-function Banner({ bannerImage, bannerAlt }) {
+export default function Banner({ bannerImage, bannerAlt }) {
   return (
     <section className={styles.bannerContainer}>
       <img className={styles.bannerImage} src={bannerImage} alt={bannerAlt} />
     </section>
   )
 }
-
-export default Banner;

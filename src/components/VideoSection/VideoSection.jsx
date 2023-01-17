@@ -1,14 +1,14 @@
 import React from 'react'
 import styles from './VideoSection.module.css';
-import videoSnapshot from "../../assets/images/placeholder-video.png";
+import videoSnapshot from '../../assets/images/placeholder-video.png';
 
-function VideoSection() {
+export default function VideoSection() {
   return (
     <section className={styles.videoSectionContainer}>
       <img
         className={styles.videoSnapshot}
         src={videoSnapshot}
-        alt="Preview de um vídeo mostrando o CEO da Elo7, vestido de camisa azul, sorrindo, com uma estante de livros ao fundo"
+        alt='Preview de um vídeo mostrando o CEO da Elo7, vestido de camisa azul, sorrindo, com uma estante de livros ao fundo'
       />
       <article className={styles.videoInformationContainer}>
         <h3 className={styles.videoTitle}>PALAVRA DO CEO</h3>
@@ -24,5 +24,3 @@ function VideoSection() {
     </section>
   )
 }
-
-export default VideoSection;

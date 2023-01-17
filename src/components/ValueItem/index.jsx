@@ -1,1 +1,1 @@
-export { default } from "./ValueItem";
+export { default } from './ValueItem';
