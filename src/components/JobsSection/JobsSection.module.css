@@ -1,5 +1,6 @@
-.jobsListContainer {
-  margin: 0 9.5rem 3rem 9.5rem;
+.jobsSectionContainer {
+  margin-bottom: 1rem;
+  width: 80%;
 }
 
 .jobSectionTitle,
@@ -8,10 +9,6 @@
 }
 
 .jobSectionTitle {
-  margin: 3.5rem 0;
+  margin: 3rem 0;
   text-align: center;
-}
-
-.jobAreaTitle {
-  margin-bottom: 2rem;
 }

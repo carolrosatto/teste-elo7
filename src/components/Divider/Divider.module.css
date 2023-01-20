@@ -1,7 +1,13 @@
 .divider {
   width: 15rem;
-  height: 0.15rem;
+  height: 0.1rem;
   background-color: #cbcbcb;
   align-self: center;
   margin: 1.5rem 0;
+}
+
+@media (max-width: 599px) {
+  .divider {
+    width: 40%;
+  }
 }

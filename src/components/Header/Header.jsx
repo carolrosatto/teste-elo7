@@ -13,7 +13,7 @@ export default function Header() {
   }
 
   return (
-    <header>
+    <div className={styles.headerContainer}>
       <article className={styles.bannerContainer}>
         <h1 className={styles.title}>Trabalhe no Elo7</h1>
       </article>
@@ -26,6 +26,6 @@ export default function Header() {
         <Divider />
         <CustomLink label='VAGAS EM ABERTO' hasIcon onClick={() => scrollToItem('#jobSection')} />
       </article>
-    </header>
+    </div>
   )
 }

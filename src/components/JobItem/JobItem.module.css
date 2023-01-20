@@ -2,18 +2,20 @@
   display: flex;
   justify-content: space-between;
   margin: 1rem 0;
-}
-
-.jobTitle,
-.jobLocation {
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-
-.jobTitle {
-  color: #3ba0a7;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .jobLocation {
   color: #827873;
+  font-weight: 600;
+  text-align: end;
+  width: 40%;
+}
+
+@media (max-width: 599px) {
+  .jobLocation {
+    font-size: 0.8rem;
+    width: 80%;
+  }
 }

@@ -5,10 +5,11 @@ export default function ValueItem({ imageSrc, imageAlt, valueDescription, valueT
   return (
     <article className={styles.valueItemContainer}>
       <img
+        className={styles.icon}
         src={imageSrc}
         alt={imageAlt}
       />
-      <h2 className={styles.valueTitle}>{valueTitle.toUpperCase()}</h2>
+      <h3 className={styles.valueTitle}>{valueTitle.toUpperCase()}</h3>
       <p>{valueDescription}</p>
     </article>
   )

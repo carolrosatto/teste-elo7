@@ -4,7 +4,7 @@ import styles from './JobsSection.module.css';
 
 export default function JobsSection({ jobList }) {
   return (
-    <section className={styles.jobsListContainer} id='jobSection'>
+    <section className={styles.jobsSectionContainer} id='jobSection'>
       <h2 className={styles.jobSectionTitle}>VAGAS EM ABERTO</h2>
       <h3 className={styles.jobAreaTitle}>DESENVOLVIMENTO</h3>
       {jobList.map((job, index) => {
